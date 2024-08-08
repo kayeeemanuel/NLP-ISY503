@@ -1,0 +1,24 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+
+    <link rel="stylesheet" href="static/style.css" />
+
+</head>
+<body>
+    <div class="container">
+        <h1 id="mainHeader" class="header-image"> NLP - Sentiment Analysis</h1>
+        <form action="/analyze" method="post">
+            <input id="sentimentBox" name="text" placeholder="Enter your sentiment here..." required />
+            <button type="submit" id="analyzeButton">Analyze</button>
+        </form>
+        {% if sentiment %}
+        <h2 id="result">Sentiment: {{ sentiment }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>

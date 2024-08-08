@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body h1 {
+    font-family: 'Dancing Script', sans serif;
+    font-weight: 300 !important;
+    margin: 20px;
+    text-shadow: 1px 1px 1px #000000a1;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+#sentimentBox {
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+#sentimentBox:focus {
+    background: rgb(245, 221, 200);
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: 1px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#analyzeButton {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 5px 5px 5px #ffffffa1;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: rgba(80, 73, 73, 0.758);
+    background-color: rgb(239, 200, 166);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#analyzeButton:hover {
+    background-color: rosybrown;
+    color: rgb(52, 47, 47);
+}
+
+.header-image {
+    background: url('../static/floweer.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px 20px;
+    text-align: center;
+    height: 40px;
+}
+
+#result {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
